@@ -11,6 +11,7 @@ const config = {
     "plugin:@typescript-eslint/stylistic-type-checked",
   ],
   rules: {
+    "@typescript-eslint/no-require-imports": "off",
     "@typescript-eslint/prefer-function-type": "off",
     "@typescript-eslint/prefer-promise-reject-errors": "off",
     "@typescript-eslint/array-type": "off",

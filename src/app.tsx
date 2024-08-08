@@ -1,3 +1,4 @@
+import "@fontsource/inter";
 import { MetaProvider, Title } from "@solidjs/meta";
 import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
@@ -10,7 +11,7 @@ export default function App() {
       root={(props) => (
         <MetaProvider>
           <Title>Solid Demo App</Title>
-          <Suspense>{props.children}</Suspense>
+          <Suspense fallback={<>Loading...</>}>{props.children}</Suspense>
         </MetaProvider>
       )}
     >
