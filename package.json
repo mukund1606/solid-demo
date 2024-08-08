@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
     "@fontsource/inter": "^5.0.20",
@@ -14,6 +15,7 @@
     "@solidjs/start": "^1.0.6",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "lucide-solid": "^0.426.0",
     "socket.io-client": "^4.7.5",
     "solid-js": "^1.8.19",
     "tailwind-merge": "^2.4.0",
